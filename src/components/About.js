@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
-import angularIcon from "@iconify/icons-logos/angular-icon";
+import nodejs from "@iconify/icons-logos/nodejs";
 import reactIcon from "@iconify/icons-logos/react";
-import vueIcon from "@iconify/icons-logos/vue";
+import javascript from "@iconify/icons-logos/javascript";
 
 class About extends Component {
   render() {
@@ -16,7 +16,7 @@ class About extends Component {
     }
 
     return (
-      <section id="about">
+      <section id="about" >
         <div className="col-md-12">
           <h1 style={{ color: "black" }}>
             <span>{sectionName}</span>
@@ -27,21 +27,24 @@ class About extends Component {
                 <span style={{ cursor: "auto" }}>
                   <img
                     height="250px"
+                    width="350px"
                     src={profilepic}
                     alt="Avatar placeholder"
                   />
-                  <Icon
-                    icon={angularIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
+                   <Icon
+                 icon={javascript}
+                 style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                 />
+                  
                   <Icon
                     icon={reactIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
-                    icon={vueIcon}
+                    icon={nodejs}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
+                 
                 </span>
               </div>
             </div>

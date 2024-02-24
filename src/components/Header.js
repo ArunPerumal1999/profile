@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Typical from "react-typical";
-import Switch from "react-switch";
+// import Switch from "react-switch";
+
 
 class Header extends Component {
   titles = [];
@@ -38,16 +39,16 @@ class Header extends Component {
       <header id="home" style={{ height: window.innerHeight - 140, display: 'block' }}>
         <div className="row aligner" style={{height: '100%'}}>
           <div className="col-md-12">
-            <div>
+            <div id="bgg">
               <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
               <br/>
-              <h1 className="mb-0">
+              <h1 className="mb-0" id="namee">
                 <Typical steps={[name]} wrapper="p" />
               </h1>
               <div className="title-container">
                 <HeaderTitleTypeAnimation />
               </div>
-              <Switch
+              {/* <Switch
                 checked={this.state.checked}
                 onChange={this.onThemeSwitchChange}
                 offColor="#baaa80"
@@ -86,7 +87,7 @@ class Header extends Component {
                   ></span>
                 }
                 id="icon-switch"
-              />
+              /> */}
             </div>
           </div>
         </div>
@@ -96,3 +97,4 @@ class Header extends Component {
 }
 
 export default Header;
+

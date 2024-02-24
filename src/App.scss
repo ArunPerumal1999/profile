@@ -1,5 +1,5 @@
-@import '../src/scss/themes/theme-dark.scss';
-@import '../src/scss/themes/theme-light.scss';
+// @import '../src/scss/themes/theme-dark.scss';
+// @import '../src/scss/themes/theme-light.scss';
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
 
 html {
@@ -22,14 +22,21 @@ html {
 .title-styles {
 	font-family: 'Raleway', sans-serif;
 	font-size: 250%;
+	color: #ccc;
 }
 
 .header-icon {
 	height: 150px;
 	width: 150px;
+	color: #ccc;
 }
 
 header {
+	background-image: url("profile.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	// background-size: cover;
+	
 	position: relative;
 	height: 520px;
 	min-height: 450px;
@@ -44,7 +51,10 @@ header {
 	-o-background-size: cover;
 	background-size: cover;
 	padding-top: 150px;
-	padding-bottom: 0;
+	padding-bottom: 510px;
+}
+#bgg{
+	background-color: #1f1f1f60;
 }
 
 .language-icon {
@@ -73,17 +83,17 @@ header {
 }
 
 .language {
-	font-size: 25px;
+	font-size: 12px;
 	background-color: #e9d5a1;
 	padding-bottom: 10px;
-	padding-top: 80px;
+	padding-top:55px;
 }
 
 header h1 {
 	font-size: 400%;
 	text-align: center;
 	font-weight: 600 !important;
-	color: #353239;
+	color: #f1f3f1;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	margin: 0 auto 18px auto;
 	width: 100%;

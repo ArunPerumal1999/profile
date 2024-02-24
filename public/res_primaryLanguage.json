@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "👋 I'm Arun kumar. Innovative and detail-oriented Web Developer with 6 month of experience creating and implementing innovative web designs and user experiences. Proficient in HTML, CSS, JavaScript, jQuery and React Js I have a solid understanding of front-end technologies and frameworks💜",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,38 +11,14 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "E-commerce",
+        "startDate": "2023 ",
+        "description": "The React Ecommerce Web Application is a modern online shopping platform designed to provide users with a seamless and intuitive shopping experience. Built using React.js, this application offers a user-friendly interface coupled with robust functionality to ensure a smooth browsing and purchasing journey for customers.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/ecom/ecom.png"
+          
         ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
+        "url": "https://beamish-bienenstitch-43f7fd.netlify.app/",
         "technologies": [
           {
             "class": "devicon-react-original",
@@ -55,63 +31,62 @@
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "E-commerce",
+        "startDate": "2022",
+        "description": "The Electronics Ecommerce Web Application is a comprehensive online platform tailored specifically for electronic products, offering a wide range of devices and accessories to tech enthusiasts and consumers alike. Developed using JavaScript and Bootstrap, this application combines powerful functionality with sleek design to deliver an engaging shopping experience for users passionate about electronics :)",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/boot/boot1.png",
+          "images/portfolio/boot/boot2.png"
         ],
-        "url": "https://github.com",
+        "url": "https://teal-dieffenbachia-0cd0b8.netlify.app/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "To-Do-List *CRUD*",
+        "startDate": "2022",
+        "description": "The Simple ToDoList Web Application is a straightforward yet powerful tool designed to help users manage their tasks efficiently. This application implements basic CRUD (Create, Read, Update, Delete) operations to enable users to seamlessly add, view, modify, and remove tasks from their to-do lists.!",
+        "images": [
+          "images/portfolio/cal/todo.webp"
+        ],
+        "url": "https://github.com/ArunPerumal1999/ToDoList",
+        "technologies": [
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-react-original",
+            "name": "React"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
+        "company": "Why Global Services",
         "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "years": "Aug.2023 - Feb.2024",
         "mainTech": [
-          "Angular 7/8"
+          "React js 9/10"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
+          "HTML",
+          "CSS",
+          "Bootstrap",
           "JavaScript",
-          "DHTMLX Gantt"
+          "ReactJS",
+          "Node",
+          "SQL",
+          "Mongo DB"
         ]
       }
     ]
